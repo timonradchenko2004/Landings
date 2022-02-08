@@ -1,0 +1,64 @@
+.section-5{
+  background:   url('../img/image 7.png') 0px 0px/1920px 672px no-repeat;
+
+}
+
+.section-5 .container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+padding-bottom: 126px;
+padding-top: 120px;
+}
+
+.section-5 .text-1{
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
+line-height: 117px;
+color: #1939DE;
+padding-bottom: 22px;
+}
+.text-5{
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #3D4B66;
+padding-bottom: 20px;
+
+}
+.mintext-5{
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #3D4B66;
+}
+.sec-5{
+  width: 400px;
+}
+.d1{
+  width: 50%;
+}
+@media screen and (max-width:1200px) {
+  .section-5{
+    background-position: center;
+  }
+
+
+}
+
+@media screen and (max-width:768px) {
+  .section-5{
+    background-position: center;
+  }
+.section-5 .container{
+  flex-direction: column;
+  justify-content: center;
+}
+
+}

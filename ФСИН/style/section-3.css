@@ -1,0 +1,169 @@
+.section-3{
+  background: #EEF2F7;
+}
+
+.section-3 .container{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+.section-3 .block{
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 29%;
+
+}
+.text-3{
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #3D4B66;
+display: flex;
+flex-direction: row;
+padding-bottom: 40px;
+}
+.block1{
+
+  display: flex;
+flex-direction: column;
+width: 35%;
+padding-top: 210px;
+justify-content: center;
+}
+.n-block{
+  width: 100%;
+height: 90px;
+background: #FFFFFF;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #3D4B66;
+text-align: center;
+display: flex;
+align-items: center;
+border-radius: 8px;
+margin-bottom: 120px;
+}
+.n-block1{
+  display: none;
+
+  width: 100%;
+height: 90px;
+background: #FFFFFF;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #3D4B66;
+text-align: center;
+align-items: center;
+border-radius: 8px;
+margin-bottom: 120px;
+
+}
+.blue{
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #1939DE;
+padding-right: 17px;
+}
+.section-3 .text-2{
+  width: 100%;
+}
+
+@media screen and (max-width:1200px) {
+
+  .section-3 .container{
+    flex-direction: column;
+
+  }
+ .block1{
+   padding-top: 0;
+   width: 80%;
+   margin: 0 auto;
+
+
+ }
+
+ .section-3 .n-block{
+   margin-bottom: 50px;
+   font-size: 150%;
+   display: none;
+
+ }
+ .section-3 .n-block1{
+   font-size: 150%;
+   display: block;
+   padding: 30px;
+
+ }
+
+.section-3 .block{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+.text-3{
+font-size: 150%;
+margin-bottom: 30px;
+
+}
+
+
+
+}
+
+
+@media screen and (max-width:768px) {
+
+  .section-3 .container{
+    flex-direction: column;
+
+  }
+ .block1{
+   padding-top: 0;
+   width: 80%;
+   margin: 0 auto;
+
+
+ }
+
+ .section-3 .n-block{
+   margin-bottom: 50px;
+   font-size: 150%;
+   display: none;
+
+ }
+ .section-3 .n-block1{
+   margin-bottom: 50px;
+   font-size: 150%;
+   display: block;
+   padding-top: 40px;
+
+ }
+
+.section-3 .block{
+  width: 80%;
+  margin: 0 auto;
+
+}
+.text-3{
+font-size: 150%;
+
+}
+
+
+
+}

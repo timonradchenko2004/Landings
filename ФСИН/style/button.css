@@ -1,0 +1,23 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    background: #1939DE;
+    border-radius: 3px;
+    transition: all 0.3s linear;
+    width: 142px;
+    height: 44px;
+}
+.button:hover {
+    background: #195EE6;
+}

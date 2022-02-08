@@ -1,0 +1,73 @@
+.section-1{
+background:   url('../img/image 8.png') 0px 0px/1920px 620px no-repeat;
+background-position: top;
+}
+.section-1 .container{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+}
+.section-1 h1{
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 64px;
+color: #3D4B66;
+margin-bottom: 37px;
+}
+.section-1 .text-1{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #3D4B66;
+  padding-bottom: 56px;
+  width: 410px;
+
+
+}
+.sec-1{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 600px;
+  padding-bottom: 228px;
+  padding-left: 352px;
+}
+.sec-2{
+  width: 50%;
+
+}
+
+@media screen and (max-width:1777px) {
+ .sec-1{
+   padding-left: 13%;
+ }
+
+}
+
+@media screen and (max-width:1200px) {
+ .sec-1{
+   padding-left: 6%;
+ }
+
+}
+
+
+@media screen and (max-width:768px) {
+  .section-1{
+      background:   url('../img/HeroImage.png') 0px 0px/1920px 620px no-repeat;
+      background-size: cover;
+      background-position: bottom;
+      padding-top: 50px;
+      }
+ .sec-1{
+   margin: 0 auto;
+   padding-left: 0px;
+ }
+
+}

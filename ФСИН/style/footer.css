@@ -1,0 +1,25 @@
+.footer{
+  background: #EEF2F7;
+  display: flex;
+
+}
+
+.LAST{
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+color: #3D4B66;
+padding: 30px;
+padding-left: 352px;
+}
+@media screen and (max-width:720px) {
+
+.LAST{
+  padding-left: 216px;
+
+}
+
+
+}
