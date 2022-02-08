@@ -1,0 +1,61 @@
+.header {
+	font-family: 'Jost', sans-serif;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	width: 1710px;
+	max-width: 100%;
+position: fixed;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+margin-top: 30px;
+min-width: 83%;
+}
+.link-wrapper{
+  display: flex;
+	width: 100%;
+	max-width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.link{
+	font-family: 'Jost', sans-serif;
+font-style: normal;
+font-weight: 500px;
+font-size: 20px;
+line-height: 124%;
+color: #FFFFFF;
+margin: 16px;
+}
+.social {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: -5px;
+}
+.social img{
+  width: 25px;
+  height: 25px;
+  margin: 0 16px;
+}
+.temp{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-self: flex-end;
+
+}
+.logo-link{
+
+}
+
+@media screen and (max-width:768px)
+ {
+	 .temp{
+		display: none;
+	}
+
+}

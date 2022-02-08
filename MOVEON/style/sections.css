@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      height: 100%;
+
+}
+a {
+    color: #FFFFFF;
+    outline: none;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+a:hover {
+    color: #D6CEE1;
+}
+
+.page-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.section-1{
+  background:
+  url('../img/Mask Group 6.png') 0px 0px/auto auto no-repeat,
+  url('../img/Path 194.png') 0px 0px/auto auto no-repeat,
+  url('../img/Path 195.png') 20px 25px/auto auto no-repeat;
+background-size: 100%;
+}
+.section-1 .container{
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+h1{
+  font-family: 'Jost', sans-serif;
+font-style: normal;
+font-weight:700;
+font-size: 48px;
+line-height: 124%;
+color: #FFFFFF;
+margin-bottom: 14px;
+
+}
+.how-to{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 110px;
+  flex-wrap: wrap;
+  padding-top:70px;
+}
+
+.photo-1 {
+width: 646px;
+height: 776px;
+}
+.photo-1{
+  margin-bottom: 210px;
+  margin-left: 170px;
+}
+ .section-1 .col{
+width: 549px;
+margin-left: 100px;
+margin-bottom: 360px;
+}
+.section-2 .container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section-1 .text{
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 124%;
+
+
+  color: #FFFFFF;
+}
+
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 44px;
+    width: 484px;
+    margin-left: -15px;
+}
+.how-to-do{
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  align-items: center;
+  color:black;
+  flex-wrap: wrap;
+}
+
+@media  screen and 	(max-width: 768px) {
+  .section-1 {
+    background-size: 350%;
+  }
+ .how-to-do{
+   flex-direction: column;
+ }
+
+.section-1 .col{
+  margin-bottom: 130px;
+}
+.photo-1{
+  margin: 0 auto;
+}
+}
+
+
+
+h2{
+  font-family: 'Jost', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 46px;
+line-height: 66px;
+
+color: #000000;
+}
+.section-2 .text{
+  font-family: 'Jost', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 124%;
+/* or 22px */
+margin-bottom: 101px;
+text-align: center;
+letter-spacing: 0.08em;
+width: 457px;
+color: #ABABAB;
+}
+
+
+
+.img-el{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #8253D8 0%, #D05DDE 100%);
+  margin-left: 25px;
+}
+.row1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 160px;
+
+}
+.how-to-do .col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+margin: auto;
+margin-bottom: 213px;
+height: 845px;
+    margin-left: 44px;
+}
+
+.item{
+text-align: right;
+width: 340px;
+font-family: 'Jost', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 124%;
+text-align: right;
+
+color: #B0B0B0;
+margin-top: 40px;
+}
+h3{
+  margin-left: -70px;
+      margin-bottom: -35px;
+      font-size:22px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+margin-bottom: 170px;
+
+}
+.row .img-el{
+  margin-right:25px;
+
+}
+.row .item{
+text-align: left;
+}
+ h4{
+  margin-left: 75px;
+  margin-bottom: -35px;
+  font-size:22px;
+
+}

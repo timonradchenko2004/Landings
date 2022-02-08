@@ -1,0 +1,44 @@
+.button {
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 124%;
+  color: #FFFFFF;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border-radius: 7px;
+    background: transparent;
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+    transition: all 0.3s linear;
+    width: 220px;
+    height: 53px;
+}
+.button img{
+margin: 8px;
+margin-bottom: 15px;
+}
+.button:hover {
+
+    color: #A658DB;
+    background: #FFFFFF;
+    padding-right: 20px;
+}
+.button:hover .img1 {
+
+  display: block;
+position: relative;
+left: 35px;
+width: 29px;
+height: 29px;
+}
+
+.img1{
+  display: none;
+}
